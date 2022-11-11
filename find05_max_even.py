@@ -11,8 +11,8 @@ def find_max_even(data):
             even_num = even_num + [i]
     
     max = even_num[0]
-    for i in even_num :
-        if i > max :
+    for t in even_num :
+        if t > max :
             max = i
     
     return max 
