@@ -13,7 +13,7 @@ def find_max_even(data):
     max = even_num[0]
     for t in even_num :
         if t > max :
-            max = i
+            max = t
     
     return max 
 print(find_max_even([1, 4, 3, 8, 5]))
